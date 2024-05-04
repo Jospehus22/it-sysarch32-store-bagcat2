@@ -1,0 +1,194 @@
+/* App.css */
+
+.products-div {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% - 20px); /* Adjust card width */
+  height: calc(100% - 20px);
+  margin-bottom: 20px; /* Add margin between each card */
+  padding: 10px; /* Add padding inside each card */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card img {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.card p {
+  margin: 5px 0;
+  font-family: "Century Gothic", sans-serif; /* Change font to Century Gothic */
+  font-weight: bold; /* Make font bold */
+}
+
+.card input[type="file"] {
+  display: none; /* Hide file input by default */
+}
+
+.card button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* SignIn.css */
+.form {
+  background-color: #640D6B;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background {
+  background-image: url('https://miro.medium.com/v2/resize:fit:1358/1*yVY0TDD746ZdPq0x4hbHJg.jpeg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  margin-top: 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Product.css */
+
+.products-div {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  padding: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px; /* Add margin between each card */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move card slightly upwards on hover */
+}
+
+.card img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+}
+
+.card p {
+  margin: 5px 0;
+  font-family: "Century Gothic", sans-serif; /* Change font to Century Gothic */
+  font-weight: bold; /* Make font bold */
+}
+
+.card input[type="file"] {
+  display: none; /* Hide file input by default */
+}
+
+.card button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* ProductDetail.css */
+
+.product-detail-container {
+  background-color: #f2f2f2; /* Light gray background color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail {
+  background-color: #ffffff; /* White background color for product details */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Adjust width as needed */
+  margin: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
